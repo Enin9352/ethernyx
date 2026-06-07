@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary meta -->
+    <title>Ethernyx — The Fastest NFT Bidding Bot for OpenSea &amp; Blur</title>
+    <meta
+      name="description"
+      content="Ethernyx is the fastest cloud-based NFT bidding bot for OpenSea and Blur — up to 300+ bids/sec, instant counter-bidding, auto-cancel on outbid, and an auto-listing floor lister. No downloads, runs in the cloud."
+    />
+    <meta
+      name="keywords"
+      content="NFT bidding bot, OpenSea bidding bot, Blur bidding bot, NFT sniping bot, automated NFT bidding, collection offer bot, trait bidding, token bidding, NFT floor lister, NFT trading bot, fastest NFT bot, Ethereum NFT bot"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#070a09" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ethernyx" />
+    <meta property="og:url" content="https://ethernyx.io/" />
+    <meta property="og:title" content="Ethernyx — The Fastest NFT Bidding Bot for OpenSea &amp; Blur" />
+    <meta property="og:description" content="Up to 300+ bids/sec, instant counter-bidding, auto-cancel on outbid, and an auto-listing floor lister. Cloud-based, no downloads." />
+    <meta property="og:image" content="https://ethernyx.io/og-image.png" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ethernyx" />
+    <meta name="twitter:title" content="Ethernyx — The Fastest NFT Bidding Bot for OpenSea &amp; Blur" />
+    <meta name="twitter:description" content="Up to 300+ bids/sec, instant counter-bidding, auto-cancel on outbid, auto-listing floor lister. Cloud-based, no downloads." />
+    <meta name="twitter:image" content="https://ethernyx.io/og-image.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Structured data: readable by AI crawlers and Google without running JS -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://ethernyx.io/#organization",
+            "name": "Ethernyx",
+            "url": "https://ethernyx.io/",
+            "logo": "https://ethernyx.io/logo.svg",
+            "sameAs": [
+              "https://twitter.com/ethernyx",
+              "https://t.me/ethernyx_tools"
+            ]
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://ethernyx.io/#app",
+            "name": "Ethernyx",
+            "applicationCategory": "FinanceApplication",
+            "applicationSubCategory": "NFT Bidding Bot",
+            "operatingSystem": "Web",
+            "url": "https://app.ethernyx.io/",
+            "publisher": { "@id": "https://ethernyx.io/#organization" },
+            "description": "Cloud-based NFT bidding bot for OpenSea and Blur. Up to 300+ bids/sec, collection / trait / token bidding, instant counter-bidding, auto-cancel on outbid, and an auto-listing floor lister.",
+            "featureList": [
+              "OpenSea and Blur supported",
+              "Up to 300+ bids per second",
+              "Collection, trait and token bidding",
+              "Instant counter-bidding",
+              "Auto-cancel on outbid",
+              "Floor Lister with auto-listing",
+              "Cloud-based, no downloads"
+            ],
+            "offers": [
+              { "@type": "Offer", "name": "Lite", "price": "0.050", "priceCurrency": "ETH", "description": "100 tasks, 5 bids/sec, 2 wallets." },
+              { "@type": "Offer", "name": "Starter", "price": "0.090", "priceCurrency": "ETH", "description": "Unlimited tasks, 8 bids/sec, 2 wallets." },
+              { "@type": "Offer", "name": "Base", "price": "0.140", "priceCurrency": "ETH", "description": "Unlimited tasks, 15 bids/sec, 3 wallets." },
+              { "@type": "Offer", "name": "Pro", "price": "0.370", "priceCurrency": "ETH", "description": "Unlimited tasks, 50 bids/sec, 5 wallets." },
+              { "@type": "Offer", "name": "Ultimate", "price": "0.800", "priceCurrency": "ETH", "description": "Unlimited tasks, 125 bids/sec, 10 wallets." }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://ethernyx.io/#faq",
+            "mainEntity": [
+              { "@type": "Question", "name": "What is the fastest NFT bidding bot?", "acceptedAnswer": { "@type": "Answer", "text": "Ethernyx places up to 300+ bids per second, roughly 3x faster than typical competitors, for OpenSea and Blur." } },
+              { "@type": "Question", "name": "Which marketplaces does Ethernyx support?", "acceptedAnswer": { "@type": "Answer", "text": "OpenSea and Blur, from a single dashboard." } },
+              { "@type": "Question", "name": "Do I need to download anything?", "acceptedAnswer": { "@type": "Answer", "text": "No. Ethernyx is 100% cloud-based and runs in your browser on any device." } },
+              { "@type": "Question", "name": "Can it auto-list my NFTs?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Floor Lister auto-lists and instantly re-lists your NFTs after a fill." } },
+              { "@type": "Question", "name": "How much does Ethernyx cost?", "acceptedAnswer": { "@type": "Answer", "text": "Five tiers from 0.050 ETH/mo to 0.800 ETH/mo, plus a custom Individual plan and a free tier." } }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <style>
+      :root {
+        --bg: #070a09;
+        --em: #10b981;
+        --em-light: #34d399;
+        --text: #ffffff;
+        --muted: rgba(255, 255, 255, 0.6);
+        --card: rgba(255, 255, 255, 0.03);
+        --border: rgba(255, 255, 255, 0.08);
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html { scroll-behavior: smooth; }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Inter", system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      a { color: inherit; text-decoration: none; }
+      .wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+      .em { color: var(--em-light); }
+
+      /* Nav */
+      nav {
+        position: sticky; top: 0; z-index: 50;
+        backdrop-filter: blur(12px);
+        background: rgba(7, 10, 9, 0.7);
+        border-bottom: 1px solid var(--border);
+      }
+      nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+      .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; }
+      .brand img { width: 26px; height: 26px; }
+      .nav-links { display: flex; align-items: center; gap: 22px; font-size: 14px; }
+      .nav-links a { color: var(--muted); transition: color .2s; }
+      .nav-links a:hover { color: var(--text); }
+      @media (max-width: 720px) { .nav-links a:not(.btn) { display: none; } }
+
+      .btn {
+        display: inline-flex; align-items: center; gap: 8px;
+        padding: 11px 22px; border-radius: 999px; font-weight: 600; font-size: 14px;
+        background: linear-gradient(to bottom, #fff, var(--em-light), var(--em));
+        color: #062017; transition: opacity .2s;
+        box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.13);
+      }
+      .btn:hover { opacity: 0.9; }
+      .btn-ghost {
+        background: rgba(255,255,255,0.04); color: var(--text);
+        border: 1px solid var(--border); box-shadow: none;
+      }
+      .btn-ghost:hover { background: rgba(255,255,255,0.08); }
+
+      /* Hero */
+      .hero { position: relative; text-align: center; padding: 90px 0 70px; overflow: hidden; }
+      .hero::before {
+        content: ""; position: absolute; inset: 0; pointer-events: none;
+        background: radial-gradient(closest-side, rgba(16,185,129,0.22), rgba(0,0,0,0) 70%);
+        filter: blur(40px);
+      }
+      .hero .big {
+        font-weight: 800; line-height: 1; letter-spacing: -0.06em;
+        font-size: clamp(96px, 20vw, 260px);
+        background: linear-gradient(#ffffff 0%, var(--em-light) 60%, var(--em) 100%);
+        -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+        filter: drop-shadow(0 0 80px rgba(16,185,129,0.35));
+      }
+      .hero .sub {
+        margin-top: 10px; font-size: clamp(12px, 2.4vw, 22px); font-weight: 700;
+        text-transform: uppercase; letter-spacing: 0.32em; color: var(--em-light);
+      }
+      .hero h1 { margin-top: 40px; font-size: clamp(28px, 5vw, 52px); letter-spacing: -0.02em; }
+      .hero p.lead { margin: 18px auto 0; max-width: 620px; color: var(--muted); font-size: clamp(15px, 2.2vw, 19px); }
+      .cta-row { margin-top: 34px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+      /* Sections */
+      section { padding: 60px 0; position: relative; }
+      .tag {
+        display: inline-flex; align-items: center; gap: 8px; padding: 5px 14px; border-radius: 999px;
+        background: rgba(255,255,255,0.04); border: 1px solid var(--border);
+        color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+      }
+      .tag .dot { width: 6px; height: 6px; border-radius: 999px; background: var(--em); }
+      h2 { font-size: clamp(26px, 4vw, 44px); letter-spacing: -0.02em; margin-top: 16px; }
+      .section-head { text-align: center; margin-bottom: 44px; }
+
+      .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+      .card {
+        text-align: left; border-radius: 16px; background: var(--card);
+        border: 1px solid var(--border); padding: 22px; transition: border-color .2s, background .2s;
+      }
+      .card:hover { border-color: rgba(255,255,255,0.18); background: rgba(255,255,255,0.05); }
+      .card h3 { font-size: 16px; margin-bottom: 6px; }
+      .card p { color: var(--muted); font-size: 14px; }
+      .card .ico { font-size: 22px; margin-bottom: 12px; display: block; }
+
+      /* Pricing */
+      .table-wrap { overflow-x: auto; border-radius: 16px; border: 1px solid var(--border); }
+      table { width: 100%; border-collapse: collapse; min-width: 640px; }
+      th, td { padding: 14px 18px; text-align: left; font-size: 14px; border-bottom: 1px solid var(--border); }
+      th { color: var(--muted); font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.08em; }
+      tbody tr:last-child td { border-bottom: none; }
+      tbody tr:hover { background: rgba(255,255,255,0.02); }
+      td .plan { font-weight: 700; }
+      .pop { color: var(--em-light); }
+
+      /* FAQ */
+      details {
+        border-radius: 14px; background: var(--card); border: 1px solid var(--border);
+        margin-bottom: 12px; transition: border-color .2s; overflow: hidden;
+      }
+      details[open] { border-color: rgba(16,185,129,0.3); background: rgba(16,185,129,0.04); }
+      summary { cursor: pointer; list-style: none; padding: 16px 20px; font-weight: 500; display: flex; justify-content: space-between; align-items: center; }
+      summary::-webkit-details-marker { display: none; }
+      summary .plus { color: var(--muted); font-size: 22px; transition: transform .2s; }
+      details[open] summary .plus { transform: rotate(45deg); }
+      details .answer { padding: 0 20px 18px; color: var(--muted); font-size: 15px; }
+
+      /* CTA band */
+      .cta-band { text-align: center; }
+      .cta-band .box {
+        border-radius: 24px; border: 1px solid rgba(16,185,129,0.25);
+        background: radial-gradient(closest-side, rgba(16,185,129,0.12), rgba(0,0,0,0) 80%), var(--card);
+        padding: 56px 24px;
+      }
+
+      /* Footer */
+      footer { border-top: 1px solid var(--border); padding: 32px 0; }
+      footer .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+      footer .muted { color: var(--muted); font-size: 14px; display: flex; align-items: center; gap: 10px; }
+      .social { display: flex; gap: 10px; }
+      .social a {
+        width: 38px; height: 38px; border-radius: 999px; display: flex; align-items: center; justify-content: center;
+        background: rgba(255,255,255,0.04); border: 1px solid var(--border); color: var(--muted); transition: all .2s; font-size: 14px;
+      }
+      .social a:hover { color: var(--text); background: rgba(255,255,255,0.1); }
+      .keywords { color: rgba(255,255,255,0.28); font-size: 12px; text-align: center; margin-top: 28px; line-height: 1.9; }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="wrap">
+        <a class="brand" href="#top"><img src="logo.svg" alt="Ethernyx logo" /> Ethernyx</a>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://ethernyx.gitbook.io/ethernyx-docs" target="_blank" rel="noopener">Docs</a>
+          <a class="btn" href="https://app.ethernyx.io" target="_blank" rel="noopener">Launch app →</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="wrap">
+        <div class="big">300+</div>
+        <div class="sub">token bids / sec on OpenSea</div>
+        <h1>The fastest NFT bidding bot</h1>
+        <p class="lead">
+          Cloud-based bidding automation for <strong>OpenSea</strong> and <strong>Blur</strong>.
+          Instant counter-bidding, auto-cancel on outbid, and an auto-listing floor lister.
+          <strong>3× faster</strong> than competitors. No downloads.
+        </p>
+        <div class="cta-row">
+          <a class="btn" href="https://app.ethernyx.io" target="_blank" rel="noopener">Launch the app →</a>
+          <a class="btn btn-ghost" href="#pricing">See pricing</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="features">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="tag"><span class="dot"></span> Features</span>
+          <h2>Everything you need to win bids</h2>
+        </div>
+        <div class="grid">
+          <div class="card"><span class="ico">⚡</span><h3>Up to 300+ bids/sec</h3><p>The fastest bid throughput available — roughly 3× faster than competing NFT bots.</p></div>
+          <div class="card"><span class="ico">🎯</span><h3>Instant counter-bidding</h3><p>The moment a higher offer lands, Ethernyx outbids it automatically.</p></div>
+          <div class="card"><span class="ico">🧹</span><h3>Auto-cancel on outbid</h3><p>No stale or outdated bids left exposed on the order book.</p></div>
+          <div class="card"><span class="ico">🏷️</span><h3>Floor Lister</h3><p>Auto-lists and instantly re-lists your NFTs the second a bid fills.</p></div>
+          <div class="card"><span class="ico">🗂️</span><h3>Every bid type</h3><p>Collection bidding, trait bidding, and token / item bidding — all covered.</p></div>
+          <div class="card"><span class="ico">🛒</span><h3>OpenSea &amp; Blur</h3><p>Trade where the real NFT volume is, from one dashboard.</p></div>
+          <div class="card"><span class="ico">☁️</span><h3>100% cloud-based</h3><p>No downloads, no VPS. Runs on any device, including mobile.</p></div>
+          <div class="card"><span class="ico">🔐</span><h3>Key security</h3><p>Private keys are encrypted, isolated, and never leave our private service.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="tag"><span class="dot"></span> Pricing</span>
+          <h2>Pay in ETH. Save up to 45% annually.</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Plan</th><th>ETH / mo</th><th>Tasks</th><th>Bids/sec</th><th>Wallets</th><th>Item bidding</th></tr>
+            </thead>
+            <tbody>
+              <tr><td class="plan">Free</td><td>Ξ0</td><td>2</td><td>—</td><td>1</td><td>—</td></tr>
+              <tr><td class="plan">Lite</td><td>Ξ0.050</td><td>100</td><td>5</td><td>2</td><td>—</td></tr>
+              <tr><td class="plan">Starter</td><td>Ξ0.090</td><td>Unlimited</td><td>8</td><td>2</td><td>✅</td></tr>
+              <tr><td class="plan">Base</td><td>Ξ0.140</td><td>Unlimited</td><td>15</td><td>3</td><td>✅</td></tr>
+              <tr><td class="plan pop">Pro</td><td>Ξ0.370</td><td>Unlimited</td><td>50</td><td>5</td><td>✅</td></tr>
+              <tr><td class="plan">Ultimate</td><td>Ξ0.800</td><td>Unlimited</td><td>125</td><td>10</td><td>✅</td></tr>
+              <tr><td class="plan">Individual</td><td>Custom</td><td>Unlimited</td><td>up to 300+</td><td>Custom</td><td>✅</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="text-align:center; margin-top:28px;">
+          <a class="btn" href="https://app.ethernyx.io" target="_blank" rel="noopener">Start free →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="wrap" style="max-width: 760px;">
+        <div class="section-head">
+          <span class="tag"><span class="dot"></span> FAQ</span>
+          <h2>Common questions</h2>
+        </div>
+        <details open><summary>What is the fastest NFT bidding bot? <span class="plus">+</span></summary><div class="answer">Ethernyx places up to <strong>300+ bids per second</strong> — roughly 3× faster than typical competitors — for both OpenSea and Blur.</div></details>
+        <details><summary>Which marketplaces are supported? <span class="plus">+</span></summary><div class="answer">OpenSea and Blur, from a single dashboard.</div></details>
+        <details><summary>Do I need to download anything? <span class="plus">+</span></summary><div class="answer">No. Ethernyx is 100% cloud-based and runs in your browser on any device, including mobile.</div></details>
+        <details><summary>Can it automatically list my NFTs? <span class="plus">+</span></summary><div class="answer">Yes. The Floor Lister auto-lists at your target price and instantly re-lists the moment a bid fills.</div></details>
+        <details><summary>How much does it cost? <span class="plus">+</span></summary><div class="answer">Five tiers from Ξ0.050/mo to Ξ0.800/mo, plus a custom Individual plan — and a free tier to start.</div></details>
+        <details><summary>Are my private keys safe? <span class="plus">+</span></summary><div class="answer">Keys are encrypted at rest and isolated in a hardened private service. They never leave it and are never logged.</div></details>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="wrap">
+        <div class="box">
+          <h2>Start trading with Ethernyx</h2>
+          <p class="lead" style="margin: 14px auto 28px;">Connect your wallet, create a task, and let the fastest NFT bidding bot do the rest.</p>
+          <a class="btn" href="https://app.ethernyx.io" target="_blank" rel="noopener">Launch the app →</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap">
+        <div class="muted"><img src="logo.svg" alt="" width="22" height="22" /> <strong style="color:#fff;">Ethernyx</strong> · © 2026 · All rights reserved</div>
+        <div class="social">
+          <a href="https://ethernyx.gitbook.io/ethernyx-docs" target="_blank" rel="noopener" aria-label="Documentation">📖</a>
+          <a href="https://t.me/ethernyx_tools" target="_blank" rel="noopener" aria-label="Telegram">✈️</a>
+          <a href="https://twitter.com/ethernyx" target="_blank" rel="noopener" aria-label="Twitter / X">𝕏</a>
+        </div>
+      </div>
+      <div class="wrap">
+        <p class="keywords">
+          NFT bidding bot · OpenSea bidding bot · Blur bidding bot · fastest NFT bot · NFT sniping bot ·
+          automated NFT bidding · collection offer bot · trait bidding · token bidding · item bidding ·
+          NFT floor lister · auto-listing NFT bot · NFT trading bot · Ethereum NFT bot · cloud NFT bot ·
+          counter-bidding bot · best NFT bidding bot 2026
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
